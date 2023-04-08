@@ -1,0 +1,132 @@
+body {
+    background-color: #f9f7f1;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23cccccc' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    padding: 0;
+    margin: 0;
+    font-family: 'Droid Serif', serif;
+
+}
+
+#upper {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+#heading {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    pointer-events: none;
+}
+
+#subhead {
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0px 12px 0px;
+}
+
+sup {
+    font-size: 8px;
+}
+
+#news {
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 0px 12px 0px 12px;
+    position: relative;
+}
+
+#articles {
+    text-align: center;
+    width: 30.5%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    border-right: 2px solid black;
+    display: inline-block;
+    height: auto;
+    text-align: center;
+}
+
+#articles p {
+    margin-top: 20px;
+    display: inline-block;
+    width: 150px;
+    font-size: 15px;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 6px 0px 6px 0px;
+}
+
+#articles2 p {
+    margin-top: 20px;
+    display: inline-block;
+    width: 150px;
+    font-size: 15px;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 6px 0px 6px 0px;
+}
+
+#articles2 {
+    text-align: center;
+    width: 30.5%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 30px;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    text-align: center;
+}
+
+#articles img {
+    width: 450px;
+    height: 250px;
+    filter: grayscale(100%);
+    box-shadow: 2px 5px 2px;
+}
+#articles2 img {
+    width: 450px;
+    height: 250px;
+    filter: grayscale(100%);
+    box-shadow: 2px 5px 2px;
+}
+
+#title {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+#articles img:hover {
+    cursor: pointer;
+    width: 460px;
+    height: 260px;
+    box-shadow: 5px 10px 2px;
+}
+
+#articles2 img:hover {
+    cursor: pointer;
+    width: 460px;
+    height: 260px;
+    box-shadow: 5px 10px 2px;
+}
+
+#articles span {
+    display: inline-block;
+    text-align: justify;
+}
+
+#articles2 span {
+    display: inline-block;
+    text-align: justify;
+}
